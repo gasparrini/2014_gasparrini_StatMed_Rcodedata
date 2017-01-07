@@ -7,7 +7,7 @@ An example illustrating the extension of DLNMs for modelling exposure-lag-respon
 
 Gasparrini A. Modeling exposure–lag–response associations with distributed lag non-linear models. *Statistics in Medicine*. 2014;**33**(5):881-899. [[freely available here](http://www.ag-myresearch.com/2014_gasparrini_statmed.html)]
 
-This is complemented by the vignette *dlnmExtended* included in the R package `dlnm`, showing applications in alternative settings.
+This is complemented by the vignette *dlnmExtended* included in the [R package dlnm](https://github.com/gasparrini/dlnm), showing applications in alternative settings.
 
 --------------------------------------------------------------------------------
 
