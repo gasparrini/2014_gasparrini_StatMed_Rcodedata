@@ -72,7 +72,7 @@ mainsub <- mainsub[order(mainsub$record,mainsub$ageexit),]
 nrow(mainsub)
 
 ################################################################################
-# CREATE THE FULL EXPOSURE HISTORIES FOR RADON AND SMOKING FROM 5-YEARS PERIODS
+# CREATE THE FULL EXPOSURE PROFILES FOR RADON AND SMOKING FROM 5-YEARS PERIODS
 
 rexp <- t(apply(uminers,1,function(x) fexpfull(x[11],x[12],x[17:34])))
 sexp <- t(apply(uminers,1,function(x) fexpfull(x[15],x[16],x[35:52])))
